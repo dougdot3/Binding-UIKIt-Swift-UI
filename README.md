@@ -6,7 +6,7 @@ In this case, although we could have used UIViewRepresentable I was trying to te
 
 In SwiftUI:
 
-`...@State private var textHere = "Filler Value"
+`@State private var textHere = "Filler Value"
 @State private var textLabel = UILabel(frame: CGRect(x: 40.0, y: 120.0, width: 250.0, height: 100.0))
 
 var body: some View {
@@ -21,7 +21,7 @@ var body: some View {
      })
     }
    }
- }..`
+ }`
  
  # The Issue
 The value is effectively 'bound' via the UIViewControllerRepresentable:
