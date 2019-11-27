@@ -13,7 +13,7 @@
 		91644025238EC123007E5111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91644024238EC123007E5111 /* Assets.xcassets */; };
 		91644028238EC123007E5111 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91644027238EC123007E5111 /* Preview Assets.xcassets */; };
 		9164402B238EC123007E5111 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91644029238EC123007E5111 /* LaunchScreen.storyboard */; };
-		91644033238EC170007E5111 /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91644032238EC170007E5111 /* CameraPreviewView.swift */; };
+		91644033238EC170007E5111 /* RepresentablePreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91644032238EC170007E5111 /* RepresentablePreviewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		91644027238EC123007E5111 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9164402A238EC123007E5111 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9164402C238EC123007E5111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		91644032238EC170007E5111 /* CameraPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
+		91644032238EC170007E5111 /* RepresentablePreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepresentablePreviewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				91644034238EC174007E5111 /* Launch */,
-				91644032238EC170007E5111 /* CameraPreviewView.swift */,
+				91644032238EC170007E5111 /* RepresentablePreviewView.swift */,
 				91644022238EC11F007E5111 /* ContentView.swift */,
 				91644024238EC123007E5111 /* Assets.xcassets */,
 				91644029238EC123007E5111 /* LaunchScreen.storyboard */,
@@ -157,7 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91644033238EC170007E5111 /* CameraPreviewView.swift in Sources */,
+				91644033238EC170007E5111 /* RepresentablePreviewView.swift in Sources */,
 				9164401F238EC11F007E5111 /* AppDelegate.swift in Sources */,
 				91644021238EC11F007E5111 /* SceneDelegate.swift in Sources */,
 				91644023238EC11F007E5111 /* ContentView.swift in Sources */,
