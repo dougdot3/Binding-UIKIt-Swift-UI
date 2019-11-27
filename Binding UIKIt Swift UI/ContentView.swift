@@ -9,8 +9,23 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    @State private var textHere = "Filler Value"
+    @State private var textLabel = UILabel(frame: CGRect(x: 40.0, y: 120.0, width: 250.0, height: 100.0))
+    
     var body: some View {
-        Text("Hello, World!")
+         VStack {
+           // FilteredPhotoView()
+            RepresentablePreviewView(text: $textHere, label:$textLabel)
+            VStack{
+                Button(action : {
+                    print("Button Pressed")
+                    self.textHere = "Button was pressed"
+                }, label : {
+                    Text("Show Camera Preview")
+                })
+            }
+        }
     }
 }
 
